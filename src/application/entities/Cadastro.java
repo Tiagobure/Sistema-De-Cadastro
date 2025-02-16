@@ -1,13 +1,13 @@
-package application.model;
+package application.entities;
 
 public class Cadastro {
 	
 	private String name;
 	private String email;
 	private Integer age;
-	private Double height;
+	private double height;
 	
-	public Cadastro(String name, String email, Integer age, Double height) {
+	public Cadastro(String name, String email, Integer age, double height) {
 		this.name = name;
 		this.email = email;
 		this.age = age;
@@ -42,7 +42,7 @@ public class Cadastro {
 		return height;
 	}
 
-	public void setHeight(Double height) {
+	public void setHeight(double height) {
 		this.height = height;
 	}
 	
