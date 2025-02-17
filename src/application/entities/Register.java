@@ -1,13 +1,13 @@
 package application.entities;
 
-public class Cadastro {
+public class Register {
 	
 	private String name;
 	private String email;
 	private Integer age;
 	private double height;
 	
-	public Cadastro(String name, String email, Integer age, double height) {
+	public Register(String name, String email, Integer age, double height) {
 		this.name = name;
 		this.email = email;
 		this.age = age;
